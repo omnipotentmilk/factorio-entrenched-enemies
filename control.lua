@@ -8,7 +8,7 @@ script.on_event(defines.events.on_biter_base_built, function(event)
 
 	local surface = event.entity.surface.name
 	local roll = 0
-	local upgradeMultiplier = settings.global["entrenched-enemies-base-upgrade-multiplier"].value
+	local upgradeMultiplier = settings.startup["entrenched-enemies-base-upgrade-multiplier"].value
 	local targetRoll = Quality.next_probability * upgradeMultiplier
 
 	while Quality.next ~= nil do
@@ -32,22 +32,4 @@ script.on_event(defines.events.on_biter_base_built, function(event)
 		force = base.force,
 		quality = Quality,
 	})
-
-	if settings.global["entrenched-enemies-debug"].value == true then
-		game.players[1].print(
-			string.format(
-				"Placed %s with %s quality at %f %f",
-				base.name,
-				Quality.name,
-				base.position.x,
-				base.position.y
-			)
-		)
-	end
-end
-
-if mods["space-age"] then
-  -- demolishers can spawn as quality variants
-  -- NOTE: no way to do this yet. Waiting on API changes to allow spawning an entity with quality
-
-end
+end)
