@@ -35,11 +35,4 @@ data:extend({
 		maximum_value = 10,
 		order = "ad",
 	},
-	-- {
-	-- 	type = "bool-setting",
-	-- 	name = "entrenched-enemies-debug",
-	-- 	setting_type = "runtime-global",
-	-- 	default_value = false,
-	-- 	order = "ae",
-	-- },
 })
