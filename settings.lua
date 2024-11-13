@@ -1,11 +1,11 @@
 data:extend({
 	{
 		type = "double-setting",
-		name = "entrenched-enemies-base-upgrade-multiplier",
+		name = "entrenched-enemies-base-upgrade-percent",
 		setting_type = "startup",
-		default_value = 1,
-		minimum_value = 0.01,
-		maximum_value = 10,
+		default_value = 0.2,
+		minimum_value = 0.0,
+		maximum_value = 1.0,
 		order = "aa",
 	},
 	{
@@ -35,11 +35,4 @@ data:extend({
 		maximum_value = 10,
 		order = "ad",
 	},
-	-- {
-	-- 	type = "bool-setting",
-	-- 	name = "entrenched-enemies-debug",
-	-- 	setting_type = "runtime-global",
-	-- 	default_value = false,
-	-- 	order = "ae",
-	-- },
 })
