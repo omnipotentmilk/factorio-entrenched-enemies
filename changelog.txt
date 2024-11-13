@@ -1,6 +1,10 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 13.11.2024
+  Info:
+    - This initial release aims to make enemy bases harder to destroy thus making expansions are more difficult activity without requiring the entire map being a red mist
+    - A primary goal is make killing individual bases feel like an achievement rather than running over hundreds of them with ease ( relative player power vs evolution )
+    - A secondary goal is to ocasionally throw a curve ball when you see quality stompers bases or worms which pose hightened risk.
   Features:
     - Worms / unit spawners when created on chunk create or expansion party can possibly be created as a quality entity. Default chance 20% to level up, when a level up occurs it is rolled again, allowing any quality to possibly appear, default is 20% ( configurable )
     - Worms / unit spawners now have scalable max HP, default is 3x normal ( configurable )

@@ -24,8 +24,7 @@ function qualitySpawnEntity(entity)
 
 	local surface = entity.surface.name
 	local roll = 0
-	local upgradeMultiplier = settings.startup["entrenched-enemies-base-upgrade-multiplier"].value
-	local targetRoll = Quality.next_probability * upgradeMultiplier
+	local targetRoll = settings.startup["entrenched-enemies-base-upgrade-percent"].value
 
 	while Quality.next ~= nil do
 		roll = math.random()
