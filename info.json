@@ -1,12 +1,12 @@
 {
   "name": "entrenched-enemies",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "factorio_version": "2.0",
   "title": "Entrenched Enemies",
   "author": "zanven",
   "contact": "",
   "homepage": "https://github.com/AnthonyPoschen/factorio-entrenched-enemies.git",
-  "description": "makes enemy faction bases have more health, spawn new enemies faster and enables quality spawners",
+  "description": "Make enemy bases tougher to defeat by increasing HP, Regen, Unit spawn speed, Quality base/worm spawn chance, fully configurable",
   "dependencies": [
     "base >= 2.0.0",
     "? quality >= 2.0.0",
