@@ -15,3 +15,14 @@ Version: 1.0.1
 Date: 13.11.2024
   Features:
     - New additional quality chance per chunk from surface origin default is 1% per chunk ( configurable ) this means with default settings every 80 chunks is a guaranteed tier up for all enemies ( only 80 and not 100 due to global default tier up chance of 20% )
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 27.11.2024
+  Features:
+    - Demolisher support added!
+    - Behemoth enemies mod support added
+    - Demolisher movement speed buffed 1.4x ( configurable )
+    - Demolisher Max HP buffed 3x ( configurable )
+    - Demolisher HP Regen buffed 2x ( configurable )
+    - Demolisher Attack Range buffed 1.5x ( configurable )
+    - Demolisher Attack variance added 20% - this controls how predictable demolisher attack frequency is, 0 == perfect timing ( configurable ) 
