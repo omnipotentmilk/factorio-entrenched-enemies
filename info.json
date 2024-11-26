@@ -6,7 +6,7 @@
   "author": "zanven",
   "contact": "",
   "homepage": "https://github.com/AnthonyPoschen/factorio-entrenched-enemies.git",
-  "description": "Make enemy bases tougher to defeat by increasing HP, Regen, Unit spawn speed and Quality base/worm spawn chance. fully configurable mod to allow deathworld playstyle without needing more bases ( good for UPS ), this mod also works great when paired with Enemy unit mods like rampant or armoured enemies",
+  "description": "Make enemy bases / demolishers tougher to defeat by increasing HP, Regen, Unit spawn speed and Quality base/worm spawn chance. fully configurable mod to allow deathworld playstyle without needing more bases ( good for UPS ), this mod also works great when paired with Enemy unit mods like rampant, armoured enemies & behemoth enemies",
   "dependencies": [
     "base >= 2.0.0",
     "? quality >= 2.0.0",
