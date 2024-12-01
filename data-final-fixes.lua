@@ -8,13 +8,22 @@ for k, v in pairs(data.raw[spawner_type]) do
   local cd = v.spawning_cooldown
   local max_hp = v.max_health
   local hp_regen = v.healing_per_tick
+  ---@type data.EnemySpawnerPrototype
+  local spawner = data.raw[spawner_type][k]
   if cd then
     for i, j in pairs(cd) do
-      data.raw[spawner_type][k].spawning_cooldown[i] = j / setting_spawn_mult
+      if spawner.spawning_cooldown ~= nil then
+        spawner.spawning_cooldown[i] = j / setting_spawn_mult
+      end
     end
   end
-  data.raw[spawner_type][k].max_health = max_hp * setting_health_mult
-  data.raw[spawner_type][k].healing_per_tick = hp_regen * setting_regen_mult
+  if spawner.max_health ~= nil then
+    spawner.max_health = max_hp * setting_health_mult
+  end
+  if spawner.healing_per_tick ~= nil then
+    spawner.healing_per_tick = hp_regen * setting_regen_mult
+  end
+  data.raw[spawner_type][k] = spawner
 end
 
 -- lets upgrade all the worms now
