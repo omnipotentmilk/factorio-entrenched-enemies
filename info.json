@@ -1,9 +1,9 @@
 {
-  "name": "entrenched-enemies",
-  "version": "1.1.1",
+  "name": "quality-biters",
+  "version": "0.1",
   "factorio_version": "2.0",
-  "title": "Entrenched Enemies",
-  "author": "zanven",
+  "title": "quality-biters",
+  "author": "omnipotentmilk",
   "contact": "",
   "homepage": "https://github.com/AnthonyPoschen/factorio-entrenched-enemies.git",
   "description": "Make enemy bases / demolishers tougher to defeat by increasing HP, Regen, Unit spawn speed and Quality base/worm spawn chance. fully configurable mod to allow deathworld playstyle without needing more bases ( good for UPS ), this mod also works great when paired with Enemy unit mods like rampant, armoured enemies & behemoth enemies",

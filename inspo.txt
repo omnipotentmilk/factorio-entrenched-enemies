@@ -1,28 +1,62 @@
-Clockwork / Dinural Dynamics
+1. Rampant
+    - https://mods.factorio.com/mod/RampantFixed \ https://mods.factorio.com/mod/Rampant
+    - New enemy types (Acid, electro, fire, ETC)
+    - Drastically changed AI and aggression
 
-BREAM
+2. Intelligent Enemey
+    - https://mods.factorio.com/mod/intelligent-enemy
+    - No fundamental changes, only AI changes
 
-Rampant Evolution 
+3. Dinural Dynamics
+    - https://mods.factorio.com/mod/diurnal-dynamics?from=search
+    - Configurable Day/Night
+    - Configurable Darkness
+    - Bites attacking at nightfall
 
-Rampant
+3. Nightfall 
+    - https://mods.factorio.com/mod/Nightfall
+    - Biters in more polluted chunks attack more at night 
+    - Highly performant 
 
-Bob's Enemies
+4. Rampant Evolution
+    - https://mods.factorio.com/mod/RampantEvolution
+    - Adds simple modifiers to pollution based on biter kills
 
-Natural Evolution Enemies
+5. Bugs Rule Everything Around Me
+    - https://mods.factorio.com/mod/BREAM
+    - At night, bugs will spawn in unoccupied polluted chunks, a few tiles away from structures and away from all Lights
 
-Armored Biters
+6. Endless Enemies
+    - https://mods.factorio.com/mod/EndlessEnemies
+    - Every 20 seconds, spawn enemies on surface, and at night, spawn rate based on pollution
+    - Highly performant
 
-Swarmageddon
+7. Bob's Enemies
+    - https://mods.factorio.com/mod/bobenemies?from=search
+    - Adds more tiers of biters, and more types, up to a larger vanilla types
+    - Adds useless artifacts
 
-Pitch Black
+8. Natural Evolution Enemies
+    - https://mods.factorio.com/mod/Natural_Evolution_Enemies
+    - Adds extremely variable sizes (From mini to gigantic)
+    - Adds unique enemy types (Breeder, wall breacher, etc)
 
-Behemoth Enemies Mod
+9. Behemoth Enemies
+    - https://mods.factorio.com/mod/behemoth-enemies
+    - Adds gigantic version of extraplanetary creatures
 
-Combat Mechanics Overhaul
+10. Armored Biters
+    - https://mods.factorio.com/mod/ArmouredBiters
+    - Adds snappers, custom modeled biters with high armor resistance
 
-Distant Misfires
+11. Swarmageddon
+    - https://mods.factorio.com/mod/Swarmageddon
+    - Each biter spawns another with 50% hp, with other mods spawns the previous tier of biters
 
-Entrenched Enemies
+12. N in one 
+    - https://mods.factorio.com/mod/N_biters_in_1
+    - Same as Swarmageddon, but only spawns the previous tier and works in 2.0
 
-Fire Lights
-
+13. Combat Mechanics Overhaul
+    - https://mods.factorio.com/mod/combat-mechanics-overhaul
+    - Walls block enemy projectiles
